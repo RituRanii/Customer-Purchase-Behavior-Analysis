@@ -1,0 +1,56 @@
+Customer Purchase Behavior Analysis
+
+In this case study, we delve into the realm of customer purchase behavior analysis with the aim of optimizing marketing strategies and enhancing customer engagement in an e-commerce setting. Leveraging Python's data science ecosystem, including NumPy for statistical analysis and Pandas for data manipulation, we embark on an exploration of a dataset containing customer transaction history.
+Objective:
+The primary objective of this experiment is to gain deep insights into customer purchase behavior to inform targeted marketing strategies that drive customer retention and increase sales. By analyzing transaction data, we seek to uncover patterns, trends, and correlations that provide valuable insights into customer preferences, purchasing habits, and engagement levels.
+Key Components:
+1. Data Acquisition:
+ The experiment begins with the acquisition of a dataset containing customer transaction history, including information such as transaction dates, purchase amounts, product categories, customer demographics, and geographic details. This dataset serves as the foundation for our analysis.
+
+2. Data Exploration and Manipulation:
+ Using Pandas, we explore and manipulate the dataset to gain a comprehensive understanding of its structure and contents. We clean and preprocess the data, handle missing values, and perform any necessary transformations to prepare it for analysis. Specifically:
+   - Dropping unnecessary columns, such as index.
+   - Handling missing values appropriately.
+   - Converting data types, such as converting the 'Date' column to datetime format and 'Year' to string.
+   - Creating new columns to categorize data, such as age groups and profit margins.
+
+3. Descriptive Statistics:
+ Employing descriptive statistical analysis techniques, we compute summary statistics to characterize the distribution of purchase amounts, transaction frequencies, and other relevant metrics. These statistics provide insights into central tendencies, variability, and distributional properties of the data.
+
+4. Data Visualization:
+ Through data visualization techniques using Matplotlib and Seaborn, we create insightful visualizations to explore purchase patterns, trends, and relationships within the dataset. These visualizations include:
+   - Demographic Analysis: Histograms to display distributions of customer age, gender, country, and state.
+   - Purchase Behavior Analysis: Heatmaps and bar charts to analyze product category and subcategory preferences by age group.
+   - Financial Metrics: Bar charts to compare average unit price and quantity purchased by different age groups, scatter plots to explore revenue by age, and horizontal bar charts to identify top products by margin.
+   - Temporal Trends: Line plots to observe revenue trends over time and compare monthly revenue across different years.
+   - Geographic Analysis: Pie charts and bar charts to compare average revenue and unit price per product category by country.
+
+5. Insights and Recommendations:
+ Based on the findings from the analysis, we derive actionable insights and recommendations to optimize marketing strategies and improve customer engagement. These insights include:
+   - Identifying high-value customer segments based on demographic data.
+   - Understanding product preferences by age group to tailor marketing efforts.
+   - Highlighting profitable products and identifying opportunities for promotional activities.
+   - Monitoring revenue trends to adjust marketing strategies according to seasonal or temporal patterns.
+   - Leveraging geographic data to customize marketing campaigns for different regions.
+
+Expected Outcome:
+The expected outcome of this experiment is to gain actionable insights into customer purchase behavior that can be leveraged to develop targeted marketing strategies aimed at enhancing customer retention and driving sales. By understanding customer preferences, identifying purchasing patterns, and tailoring marketing initiatives accordingly, businesses can optimize their marketing efforts, increase customer satisfaction, and ultimately achieve their business objectives.
+
+Coding Task Guidelines
+About the DataSet :
+Refer the template code for the DataSet
+This dataset provides information on customer spending habits, product categories, geographical locations, and revenue generated from sales
+•    Date: Date of the sale. (Date) 
+•    Year: Year of the sale. (Integer) 
+•    Month: Month of the sale. (Integer) 
+•    Customer Age: Age of the customer. (Integer) 
+•    Customer Gender: Gender of the customer. (String) 
+•    Country: Country of the customer. (String) 
+•    State: State of the customer. (String) 
+•    Product Category: Category of the product. (String) 
+•    Sub Category: Sub-category of the product. (String) 
+•    Quantity: Quantity of the product sold/purchased. (Integer) 
+•    Unit Cost: Cost of the product per unit. (Float) 
+•    Unit Cost: Cost of the product per unit. (Float) 
+•    Unit Price: Price of the product per unit. (Float) 
+•    Revenue: Total revenue generated from the sale. (Float) 
